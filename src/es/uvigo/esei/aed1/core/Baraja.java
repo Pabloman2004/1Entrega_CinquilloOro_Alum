@@ -52,7 +52,6 @@ public class Baraja {
         int n1,n2;
         Carta cx;
         Carta monton[]=new Carta [48];
-        int[]aleatorio=new int[2];
         for (int i = 0; i < monton.length; i++) {
             monton[i]=cartas.pop();
         }
