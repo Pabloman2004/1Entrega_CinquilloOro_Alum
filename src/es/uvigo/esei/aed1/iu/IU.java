@@ -64,12 +64,20 @@ public class IU {
 
 
 
-    public void mostrarJugador(Jugador jugador){
+    public String mostrarJugador(Jugador jugador){
+        StringBuilder sb= new StringBuilder();
+        sb.append(jugador.getNombre());
+        sb.append(" ");
+        sb.append(jugador.getMano());
 
+        return sb.toString();
     }
 
     public void mostrarJugadores(Collection<Jugador> jugadores){
-
+        StringBuilder sb=new StringBuilder();
+        for (int i = 0; i < jugadores.size(); i++) {
+            sb.append(jugadores.iterator());
+        }
     }
    
     

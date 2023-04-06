@@ -6,14 +6,13 @@
 
 package es.uvigo.esei.aed1.core;
 import java.util.ArrayList;
-import lista.*;
+import es.uvigo.esei.aed1.iu.IU;
 
 
 public class Jugador {
 
     private String nombre;
     ArrayList<Carta>mano;
-    private int numeroJugadores;
     private int puntos;
     
     public Jugador() {
@@ -57,6 +56,7 @@ public class Jugador {
             
    
         return sb.toString();
+      
     }
      
     
